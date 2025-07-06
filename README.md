@@ -6,9 +6,10 @@ First timeinstallation
 - sign the eula
 
 - get the latest ngrok
-start ngrok with 
+``` https://ngrok.com/downloads/windows?tab=download ```
+start ngrok with in a powershell
 ```
-ngrok tcp 25565
+.\ngrok.exe tcp 25565
 ```
 
 Start the server
