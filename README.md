@@ -13,5 +13,10 @@ start ngrok with in a powershell
 ```
 
 Start the server
-- start the fabric_start.bat script
+- start the sync_start.bat script
 - in multiplayer enter the direct connect with ngrok link without the tcp:// part
+
+Closing server
+- in the server java gui enter 
+/stop
+
