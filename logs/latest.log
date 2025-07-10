@@ -1,18 +1,518 @@
-[12:21:20] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.14
-[12:21:21] [main/WARN]: Mod resolution failed
-[12:21:21] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE sophisticatedbackpacks 1.19.2-3.20.2.22 {depends sophisticatedcore @ [>=1.19.2-0.6.4 <1.20]}, ROOT_FORCELOAD_SINGLE sophisticatedbackpacks 1.19.2-3.20.2.22]
-[12:21:21] [main/INFO]: Reason: [HARD_DEP sophisticatedbackpacks 1.19.2-3.20.2.22 {depends sophisticatedcore @ [>=1.19.2-0.6.4 <1.20]}]
-[12:21:21] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, fabric-textures-v0, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, slimefun_essentials, fabric-models-v0, optionsreload, fabric-rendering-v0, fabric-sound-api-v1, fabric-rendering-v1, fabric-key-binding-api-v1, adaptive-tooltips]
-[12:21:21] [main/INFO]: Fix: add [add:sophisticatedcore 1.19.2-0.6.4 ([[1.19.2-0.6.4,1.20)])], remove [], replace []
-[12:21:21] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Install sophisticatedcore, any version between 1.19.2-0.6.4 (inclusive) and 1.20 (exclusive).
-More details:
-	 - Mod 'Sophisticated Backpacks' (sophisticatedbackpacks) 1.19.2-3.20.2.22 requires any version between 1.19.2-0.6.4 (inclusive) and 1.20 (exclusive) of sophisticatedcore, which is missing!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.14.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.14.jar:?]
+[12:28:08] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.14
+[12:28:08] [ForkJoinPool-1-worker-13/WARN]: Mod travelersbackpack uses the version fabric-1.19.2-8.2.40 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:28:08] [main/INFO]: Loading 92 mods:
+	- balm-fabric 4.6.0
+	- bettercombat 1.7.1+1.19
+	- cardinal-components 5.0.2
+	   |-- cardinal-components-base 5.0.2
+	   |-- cardinal-components-block 5.0.2
+	   |-- cardinal-components-chunk 5.0.2
+	   |-- cardinal-components-entity 5.0.2
+	   |-- cardinal-components-item 5.0.2
+	   |-- cardinal-components-level 5.0.2
+	   |-- cardinal-components-scoreboard 5.0.2
+	   \-- cardinal-components-world 5.0.2
+	- cloth-config 8.2.88
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.77.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.42+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
+	   |-- fabric-networking-v0 0.3.29+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.1.0+ee641e7390
+	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.33+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.28+df3654b390
+	   |-- fabric-rendering-v1 1.13.0+526f2c6790
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- geckolib3 3.1.40
+	   \-- com_eliotlash_mclib_mclib 20
+	- guardvillagers 2.0.7-1.19.2
+	   \-- midnightlib 1.0.0
+	- java 21
+	- lootr 0.4.29.72
+	- minecraft 1.19.2
+	- numismatic-overhaul 0.2.11.1+1.19
+	   |-- cardinal-components-base 5.0.2
+	   |-- cardinal-components-entity 5.0.2
+	   \-- stacc 1.5.6-pre.1+1.19.2
+	- owo 0.9.3+1.19
+	   \-- blue_endless_jankson 1.2.1
+	- paladins 0.9.6+1.19.2
+	- player-animator 1.0.2
+	- runes 0.9.8+1.19
+	- simplyswords 1.27-1.19.x
+	- smallships 2.0.0-b1.3.1
+	   \-- forgeconfigapiport 4.2.11
+	        |-- com_electronwill_night-config_core 3.6.5
+	        \-- com_electronwill_night-config_toml 3.6.5
+	- spell_engine 0.9.26+1.19
+	- spell_power 0.9.12+1.19
+	- t_and_t 1.10
+	- travelersbackpack fabric-1.19.2-8.2.40
+	   \-- reach-entity-attributes 2.3.0
+	- trinkets 3.4.2
+	- universal-graves 2.1.3+1.19.2
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.1-SNAPSHOT
+	   |-- hologram-api 0.2.2+1.19
+	   |-- placeholder-api 2.0.0-pre.1+1.19.2
+	   |-- polymer 0.2.17+1.19.2
+	   |    |-- packet_tweaker 0.3.0+1.18.2
+	   |    \-- polymer-registry-sync-manipulator 0.0.3+1.19.2
+	   |-- server_translations_api 1.4.18+1.19.2
+	   |    \-- packet_tweaker 0.3.0+1.18.2
+	   \-- sgui 1.1.5+1.19.1
+	- waystones 11.1.0
+	- wizards 0.9.11+1.19
+	- xaerominimap 25.2.6
+	- yet-another-config-lib 2.2.0-for-1.19.2
+[12:28:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ridri/Desktop/LatServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:28:08] [main/INFO]: Compatibility level set to JAVA_17
+[12:28:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:28:13] [main/INFO]: Building unoptimized datafixer
+[12:28:15] [main/INFO]: Here at Wisp Forest© we employ Wisp Tech Support™ magic, which solves your problem when you ask
+[12:28:15] [main/INFO]: Registering Mod Items for simplyswords
+[12:28:15] [main/INFO]: Loading Towns and Towers!
+[12:28:15] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[12:28:15] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[12:28:15] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[12:28:15] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[12:28:16] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[12:28:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:28:17] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[12:28:17] [main/ERROR]: Parsing error loading recipe paladins:ruby_holy_staff
+com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[12:28:18] [main/ERROR]: Parsing error loading recipe wizards:staff_smaragdant_frost
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:smaragdant_crystal_shard'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[12:28:18] [main/ERROR]: Parsing error loading recipe wizards:staff_crystal_arcane
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:crystal_shards'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[12:28:18] [main/ERROR]: Parsing error loading recipe paladins:aeternium_claymore
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[12:28:18] [main/ERROR]: Parsing error loading recipe wizards:staff_ruby_fire
+com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[12:28:18] [main/ERROR]: Parsing error loading recipe paladins:aeternium_great_hammer
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[12:28:18] [main/INFO]: Loaded 8 recipes
+[12:28:18] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_frost: Invalid criterion trigger: spell_engine:spell_cast
+[12:28:18] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_arcane: Invalid criterion trigger: spell_engine:spell_cast
+[12:28:18] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_fire: Invalid criterion trigger: spell_engine:spell_cast
+[12:28:18] [main/INFO]: Loaded 1360 advancements
+[12:28:18] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5483 translation keys
+[12:28:19] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 7.146 ms
+[12:28:19] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[12:28:19] [Server thread/INFO]: Loading properties
+[12:28:19] [Server thread/INFO]: Default game type: SURVIVAL
+[12:28:19] [Server thread/INFO]: Generating keypair
+[12:28:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:28:19] [Server thread/INFO]: Using default channel type
+[12:28:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:28:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:28:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:28:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:28:19] [Server thread/INFO]: Preparing level "world_2"
+[12:28:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:28:24] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:28:24] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:28:25] [Worker-Main-8/INFO]: Preparing spawn area: 42%
+[12:28:25] [Server thread/INFO]: Time elapsed: 5383 ms
+[12:28:25] [Server thread/INFO]: Done (5.616s)! For help, type "help"
+[12:28:25] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 90668 bytes (in 10 string chunks with the size of 10000)
+[12:28:25] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 41377 bytes (in 5 string chunks with the size of 10000)
+[12:28:25] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[12:29:12] [Server thread/INFO]: [Handshake] Sending channel query
+[12:29:12] [Netty Server IO #1/INFO]: [Handshake] Receiving client channels
+[12:29:12] [Netty Server IO #1/INFO]: [Handshake] Handshake completed successfully
+[12:29:12] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:59798] logged in with entity id 127 at (-211.5959868785389, 63.0, 55.4909054201561)
+[12:29:12] [Server thread/INFO]: Loading config from file...
+[12:29:12] [Server thread/INFO]: LAT_ROMMI joined the game
+[12:29:13] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[12:29:13] [Server thread/INFO]: LAT_ROMMI left the game
+[12:29:37] [Server thread/INFO]: [Handshake] Sending channel query
+[12:29:38] [Netty Server IO #2/INFO]: [Handshake] Receiving client channels
+[12:29:38] [Netty Server IO #2/INFO]: [Handshake] Handshake completed successfully
+[12:29:38] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:59808] logged in with entity id 158 at (-211.5959868785389, 63.0, 55.4909054201561)
+[12:29:38] [Server thread/INFO]: Loading config from file...
+[12:29:38] [Server thread/INFO]: LAT_ROMMI joined the game
+[12:29:38] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[12:29:38] [Server thread/INFO]: LAT_ROMMI left the game
+[12:30:34] [Server thread/INFO]: [Handshake] Sending channel query
+[12:30:34] [Netty Server IO #3/INFO]: [Handshake] Receiving client channels
+[12:30:34] [Netty Server IO #3/INFO]: [Handshake] Handshake completed successfully
+[12:30:34] [Server thread/INFO]: RickSparrow[/192.168.0.112:59839] logged in with entity id 322 at (-211.2721784208653, 63.5, 51.893905780175615)
+[12:30:34] [Server thread/INFO]: Loading config from file...
+[12:30:34] [Server thread/INFO]: RickSparrow joined the game
+[12:30:34] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[12:30:34] [Server thread/INFO]: RickSparrow left the game
+[12:30:35] [Server thread/INFO]: [Handshake] Sending channel query
+[12:30:35] [Netty Server IO #4/INFO]: [Handshake] Receiving client channels
+[12:30:35] [Netty Server IO #4/INFO]: [Handshake] Handshake completed successfully
+[12:30:35] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:59841] logged in with entity id 483 at (-211.5959868785389, 63.0, 55.4909054201561)
+[12:30:35] [Server thread/INFO]: Loading config from file...
+[12:30:35] [Server thread/INFO]: LAT_ROMMI joined the game
+[12:30:36] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[12:30:36] [Server thread/INFO]: LAT_ROMMI left the game
+[12:31:19] [Server thread/INFO]: [Handshake] Sending channel query
+[12:31:19] [Netty Server IO #5/INFO]: [Handshake] Receiving client channels
+[12:31:19] [Netty Server IO #5/INFO]: [Handshake] Handshake completed successfully
+[12:31:19] [Server thread/INFO]: RickSparrow[/192.168.0.112:59854] logged in with entity id 633 at (-211.2721784208653, 63.5, 51.893905780175615)
+[12:31:19] [Server thread/INFO]: Loading config from file...
+[12:31:19] [Server thread/INFO]: RickSparrow joined the game
+[12:31:19] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[12:31:19] [Server thread/INFO]: RickSparrow left the game
+[12:31:56] [Server thread/INFO]: [Handshake] Sending channel query
+[12:31:56] [Netty Server IO #6/INFO]: [Handshake] Receiving client channels
+[12:31:56] [Netty Server IO #6/INFO]: [Handshake] Handshake completed successfully
+[12:31:56] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:59935] logged in with entity id 784 at (-211.5959868785389, 63.0, 55.4909054201561)
+[12:31:56] [Server thread/INFO]: Loading config from file...
+[12:31:56] [Server thread/INFO]: LAT_ROMMI joined the game
+[12:31:56] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[12:31:56] [Server thread/INFO]: LAT_ROMMI left the game
+[12:35:49] [Server thread/INFO]: [Handshake] Sending channel query
+[12:35:49] [Server thread/INFO]: [Handshake] Sending channel query
+[12:35:49] [Netty Server IO #7/INFO]: [Handshake] Receiving client channels
+[12:35:49] [Netty Server IO #7/INFO]: Disconnecting com.mojang.authlib.GameProfile@5a57c59e[id=db6aea95-804c-3f21-a8c3-3d28b6c651e5,name=LAT_ROMMI,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:60190): oωo > §chandshake failure
+incompatible client
+[12:35:49] [Netty Server IO #7/INFO]: [Handshake] Handshake failed, client did not respond to channel query
+[12:35:49] [Server thread/WARN]: handleDisconnection() called twice
+[12:35:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@32edba87[id=<null>,name=LAT_ROMMI,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:60191) lost connection: Disconnected
+[12:35:58] [Server thread/INFO]: [Handshake] Sending channel query
+[12:35:58] [Netty Server IO #9/INFO]: [Handshake] Receiving client channels
+[12:35:58] [Netty Server IO #9/INFO]: [Handshake] Handshake completed successfully
+[12:36:06] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:60201] logged in with entity id 937 at (-211.5959868785389, 63.0, 55.4909054201561)
+[12:36:06] [Server thread/INFO]: Loading config from file...
+[12:36:06] [Server thread/INFO]: LAT_ROMMI joined the game
+[12:37:34] [Server thread/INFO]: [Handshake] Sending channel query
+[12:37:34] [Netty Server IO #11/INFO]: [Handshake] Receiving client channels
+[12:37:34] [Netty Server IO #11/INFO]: [Handshake] Handshake completed successfully
+[12:37:35] [Server thread/INFO]: RickSparrow[/192.168.0.112:60266] logged in with entity id 1204 at (-211.2721784208653, 63.5, 51.893905780175615)
+[12:37:35] [Server thread/INFO]: Loading config from file...
+[12:37:35] [Server thread/INFO]: RickSparrow joined the game
+[12:37:36] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[12:37:36] [Server thread/INFO]: RickSparrow left the game
+[12:41:19] [Server thread/INFO]: [Handshake] Sending channel query
+[12:41:19] [Netty Server IO #13/INFO]: [Handshake] Receiving client channels
+[12:41:19] [Netty Server IO #13/INFO]: [Handshake] Handshake completed successfully
+[12:41:20] [Server thread/INFO]: RickSparrow[/192.168.0.112:60508] logged in with entity id 1666 at (-211.2721784208653, 63.5, 51.893905780175615)
+[12:41:20] [Server thread/INFO]: Loading config from file...
+[12:41:20] [Server thread/INFO]: RickSparrow joined the game
+[13:14:18] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[13:14:18] [Server thread/INFO]: RickSparrow left the game
+[13:16:45] [Server thread/INFO]: [Handshake] Sending channel query
+[13:16:45] [Netty Server IO #16/INFO]: [Handshake] Receiving client channels
+[13:16:45] [Netty Server IO #16/INFO]: [Handshake] Handshake completed successfully
+[13:16:45] [Server thread/INFO]: RickSparrow[/192.168.0.112:61145] logged in with entity id 6877 at (-214.6122415275343, 77.0, 32.826040205606205)
+[13:16:45] [Server thread/INFO]: Loading config from file...
+[13:16:45] [Server thread/INFO]: RickSparrow joined the game
+[13:18:33] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[13:18:33] [Server thread/INFO]: LAT_ROMMI left the game
+[13:23:49] [Server thread/INFO]: [Handshake] Sending channel query
+[13:23:49] [Netty Server IO #17/INFO]: [Handshake] Receiving client channels
+[13:23:49] [Netty Server IO #17/INFO]: [Handshake] Handshake completed successfully
+[13:23:50] [Server thread/INFO]: RickSparrow has made the advancement [Hot Stuff]
+[13:23:54] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:61265] logged in with entity id 8096 at (-200.6781959338882, 61.0, 41.62883276902305)
+[13:23:54] [Server thread/INFO]: Loading config from file...
+[13:23:54] [Server thread/INFO]: LAT_ROMMI joined the game
+[13:26:15] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[13:26:15] [Server thread/INFO]: RickSparrow left the game
+[13:31:48] [Server thread/INFO]: [Handshake] Sending channel query
+[13:31:48] [Netty Server IO #19/INFO]: [Handshake] Receiving client channels
+[13:31:48] [Netty Server IO #19/INFO]: [Handshake] Handshake completed successfully
+[13:31:48] [Server thread/INFO]: RickSparrow[/192.168.0.112:62101] logged in with entity id 9499 at (-12.863451520022025, 76.0, 42.789281740406985)
+[13:31:48] [Server thread/INFO]: Loading config from file...
+[13:31:48] [Server thread/INFO]: RickSparrow joined the game
+[13:36:18] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[13:36:18] [Server thread/INFO]: RickSparrow left the game
+[13:37:39] [Server thread/INFO]: [Handshake] Sending channel query
+[13:37:39] [Netty Server IO #22/INFO]: [Handshake] Receiving client channels
+[13:37:39] [Netty Server IO #22/INFO]: [Handshake] Handshake completed successfully
+[13:37:40] [Server thread/INFO]: RickSparrow[/192.168.0.112:62173] logged in with entity id 10565 at (-186.7665256834193, 63.0, 101.297068238694)
+[13:37:40] [Server thread/INFO]: Loading config from file...
+[13:37:40] [Server thread/INFO]: RickSparrow joined the game
+[13:40:06] [Server thread/INFO]: Villager class_1646['Wizard Merchant'/8113, l='ServerLevel[world_2]', x=-211.67, y=63.00, z=39.25] died, message: 'Wizard Merchant hit the ground too hard'
+[13:42:52] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[13:42:52] [Server thread/INFO]: RickSparrow left the game
+[13:46:53] [Server thread/INFO]: [Handshake] Sending channel query
+[13:46:53] [Netty Server IO #24/INFO]: [Handshake] Receiving client channels
+[13:46:53] [Netty Server IO #24/INFO]: [Handshake] Handshake completed successfully
+[13:46:53] [Server thread/INFO]: RickSparrow[/192.168.0.112:62381] logged in with entity id 12343 at (-205.28058956193075, 63.0, 56.04180208257176)
+[13:46:53] [Server thread/INFO]: Loading config from file...
+[13:46:53] [Server thread/INFO]: RickSparrow joined the game
+[14:34:35] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[14:34:35] [Server thread/INFO]: LAT_ROMMI left the game
+[14:35:53] [Server thread/INFO]: Villager class_1646['Farmer'/125, l='ServerLevel[world_2]', x=-169.55, y=78.88, z=51.21] died, message: 'Farmer tried to swim in lava'
+[14:56:48] [Server thread/INFO]: RickSparrow has made the advancement [Tunnel Treasures]
+[14:56:48] [Server thread/INFO]: RickSparrow has made the advancement [Disme A Dozen]
+[15:05:17] [Server thread/INFO]: [Handshake] Sending channel query
+[15:05:17] [Netty Server IO #29/INFO]: [Handshake] Receiving client channels
+[15:05:17] [Netty Server IO #29/INFO]: [Handshake] Handshake completed successfully
+[15:05:21] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:63081] logged in with entity id 25710 at (-207.71322358348408, 63.0, 42.30000001192093)
+[15:05:21] [Server thread/INFO]: Loading config from file...
+[15:05:21] [Server thread/INFO]: LAT_ROMMI joined the game
+[15:54:55] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[15:54:55] [Server thread/INFO]: RickSparrow left the game
+[15:55:09] [Server thread/INFO]: [Handshake] Sending channel query
+[15:55:09] [Netty Server IO #31/INFO]: [Handshake] Receiving client channels
+[15:55:09] [Netty Server IO #31/INFO]: [Handshake] Handshake completed successfully
+[15:55:09] [Server thread/INFO]: RickSparrow[/192.168.0.112:63394] logged in with entity id 33735 at (-167.64433823862052, 73.9375, 80.46199236268285)
+[15:55:09] [Server thread/INFO]: Loading config from file...
+[15:55:09] [Server thread/INFO]: RickSparrow joined the game
+[15:55:14] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[15:55:14] [Server thread/INFO]: RickSparrow left the game
+[15:57:51] [Server thread/INFO]: [Handshake] Sending channel query
+[15:57:51] [Netty Server IO #2/INFO]: [Handshake] Receiving client channels
+[15:57:51] [Netty Server IO #2/INFO]: [Handshake] Handshake completed successfully
+[15:57:51] [Server thread/INFO]: RickSparrow[/192.168.0.112:63425] logged in with entity id 34226 at (-167.64433823862052, 73.9375, 80.46199236268285)
+[15:57:51] [Server thread/INFO]: Loading config from file...
+[15:57:51] [Server thread/INFO]: RickSparrow joined the game
+[16:14:20] [Server thread/INFO]: RickSparrow has made the advancement [Cover Me with Diamonds]
+[16:17:10] [Server thread/INFO]: Villager class_1646['Villager'/16276, l='ServerLevel[world_2]', x=-199.55, y=71.50, z=43.27] died, message: 'Villager hit the ground too hard'
+[16:18:55] [Server thread/WARN]: LAT_ROMMI moved too quickly! -5.497749642688291,-0.24785109963254115,-8.630625725695793
+[16:43:26] [Server thread/INFO]: LAT_ROMMI was slain by Iron Golem
+[16:50:44] [Server thread/INFO]: RickSparrow was slain by LAT_ROMMI
+[17:23:39] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[17:23:39] [Server thread/INFO]: LAT_ROMMI left the game
+[17:47:15] [Server thread/INFO]: RickSparrow has made the advancement [Close Quarters]
+[17:47:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16252ms or 325 ticks behind
+[17:50:37] [Server thread/INFO]: RickSparrow has made the advancement [Barrel Booty]
+[17:52:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10857ms or 217 ticks behind
+[18:13:58] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[18:13:58] [Server thread/INFO]: RickSparrow left the game
+[19:13:41] [Server thread/INFO]: [Handshake] Sending channel query
+[19:13:41] [Netty Server IO #5/INFO]: [Handshake] Receiving client channels
+[19:13:41] [Netty Server IO #5/INFO]: [Handshake] Handshake completed successfully
+[19:13:42] [Server thread/INFO]: RickSparrow[/192.168.0.112:56252] logged in with entity id 61935 at (1610.0495876907937, 63.085764312744146, -1014.9575316013535)
+[19:13:42] [Server thread/INFO]: Loading config from file...
+[19:13:42] [Server thread/INFO]: RickSparrow joined the game
+[19:18:19] [Server thread/INFO]: RickSparrow has made the advancement [Who is Cutting Onions?]
+[19:19:49] [Worker-Main-196/ERROR]: Hanging entity at invalid position: class_2338{x=-22, y=-57, z=618}
+[19:19:49] [Worker-Main-196/ERROR]: Hanging entity at invalid position: class_2338{x=-14, y=-57, z=618}
+[19:33:57] [Worker-Main-200/ERROR]: Hanging entity at invalid position: class_2338{x=1307, y=-58, z=78}
+[19:34:08] [Worker-Main-203/ERROR]: Hanging entity at invalid position: class_2338{x=1312, y=-58, z=101}
+[19:34:08] [Worker-Main-203/ERROR]: Hanging entity at invalid position: class_2338{x=1312, y=-58, z=101}
+[19:34:08] [Worker-Main-192/ERROR]: Hanging entity at invalid position: class_2338{x=1312, y=-58, z=103}
+[19:34:08] [Worker-Main-192/ERROR]: Hanging entity at invalid position: class_2338{x=1312, y=-58, z=103}
+[19:38:54] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[19:38:54] [Server thread/INFO]: RickSparrow left the game
+[19:47:23] [Server thread/INFO]: [Handshake] Sending channel query
+[19:47:23] [Netty Server IO #7/INFO]: [Handshake] Receiving client channels
+[19:47:23] [Netty Server IO #7/INFO]: [Handshake] Handshake completed successfully
+[19:47:23] [Server thread/INFO]: RickSparrow[/192.168.0.112:56500] logged in with entity id 70987 at (2533.6532256598757, 72.5625, -2903.9893898656683)
+[19:47:23] [Server thread/INFO]: Loading config from file...
+[19:47:23] [Server thread/INFO]: RickSparrow joined the game
+[20:02:00] [Server thread/INFO]: RickSparrow has made the advancement [Fishy Business]
+[20:09:21] [Server thread/INFO]: [Handshake] Sending channel query
+[20:09:21] [Netty Server IO #8/INFO]: [Handshake] Receiving client channels
+[20:09:21] [Netty Server IO #8/INFO]: [Handshake] Handshake completed successfully
+[20:09:22] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:56663] logged in with entity id 76829 at (-209.58547886338306, 65.0, 40.855923695987165)
+[20:09:22] [Server thread/INFO]: Loading config from file...
+[20:09:22] [Server thread/INFO]: LAT_ROMMI joined the game
+[20:29:40] [Server thread/INFO]: RickSparrow has made the advancement [Path of Healing]
+[20:31:01] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[20:31:01] [Server thread/INFO]: LAT_ROMMI left the game
+[20:38:27] [Server thread/INFO]: [Handshake] Sending channel query
+[20:38:27] [Netty Server IO #9/INFO]: [Handshake] Receiving client channels
+[20:38:27] [Netty Server IO #9/INFO]: [Handshake] Handshake completed successfully
+[20:38:27] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:56856] logged in with entity id 81752 at (-206.92500001192093, 64.5, 46.23750001192093)
+[20:38:27] [Server thread/INFO]: Loading config from file...
+[20:38:27] [Server thread/INFO]: LAT_ROMMI joined the game
+[20:54:57] [Server thread/INFO]: RickSparrow drowned
+[20:58:18] [Server thread/INFO]: The difficulty is Easy
+[21:03:48] [Server thread/INFO]: Villager class_1646['Weaponsmith'/74319, l='ServerLevel[world_2]', x=-207.76, y=63.77, z=43.39] died, message: 'Weaponsmith tried to swim in lava'
+[21:07:47] [Server thread/INFO]: RickSparrow lost connection: Disconnected
+[21:07:47] [Server thread/INFO]: RickSparrow left the game
+[21:11:39] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[21:11:39] [Server thread/INFO]: LAT_ROMMI left the game
+[21:11:43] [Server thread/INFO]: Stopping the server
+[21:11:43] [Server thread/INFO]: Stopping server
+[21:11:43] [Server thread/INFO]: Saving players
+[21:11:43] [Server thread/INFO]: Saving worlds
+[21:11:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:overworld
+[21:11:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_end
+[21:11:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_nether
+[21:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_2): All chunks are saved
+[21:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
