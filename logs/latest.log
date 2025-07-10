@@ -1,5 +1,5 @@
-[11:18:07] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.14
-[11:18:08] [main/INFO]: Loading 90 mods:
+[12:01:15] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.14
+[12:01:16] [main/INFO]: Loading 90 mods:
 	- balm-fabric 4.6.0
 	- bettercombat 1.7.1+1.19
 	- cardinal-components 5.0.2
@@ -106,17 +106,17 @@
 	- wizards 0.9.11+1.19
 	- xaerominimap 25.2.6
 	- yet-another-config-lib 2.2.0-for-1.19.2
-[11:18:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ridri/Desktop/LatServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[11:18:09] [main/INFO]: Compatibility level set to JAVA_17
-[11:18:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11:18:25] [main/INFO]: Building unoptimized datafixer
-[11:18:30] [main/INFO]: remember to update ubuntu, before it is too late
-[11:18:30] [main/INFO]: Registering Mod Items for simplyswords
-[11:18:31] [main/INFO]: Loading Towns and Towers!
-[11:18:31] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[11:18:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:18:32] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[11:18:34] [main/ERROR]: Parsing error loading recipe paladins:ruby_holy_staff
+[12:01:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ridri/Desktop/LatServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:01:16] [main/INFO]: Compatibility level set to JAVA_17
+[12:01:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:01:21] [main/INFO]: Building unoptimized datafixer
+[12:01:23] [main/INFO]: it seems to react to redstone
+[12:01:24] [main/INFO]: Registering Mod Items for simplyswords
+[12:01:24] [main/INFO]: Loading Towns and Towers!
+[12:01:24] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[12:01:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:01:25] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[12:01:26] [main/ERROR]: Parsing error loading recipe paladins:ruby_holy_staff
 com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -140,7 +140,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[11:18:34] [main/ERROR]: Parsing error loading recipe wizards:staff_smaragdant_frost
+[12:01:26] [main/ERROR]: Parsing error loading recipe wizards:staff_smaragdant_frost
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:smaragdant_crystal_shard'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -164,7 +164,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:smaragdant_crystal_
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[11:18:34] [main/ERROR]: Parsing error loading recipe wizards:staff_crystal_arcane
+[12:01:26] [main/ERROR]: Parsing error loading recipe wizards:staff_crystal_arcane
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:crystal_shards'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -188,7 +188,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:crystal_shards'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[11:18:34] [main/ERROR]: Parsing error loading recipe paladins:aeternium_claymore
+[12:01:26] [main/ERROR]: Parsing error loading recipe paladins:aeternium_claymore
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -212,7 +212,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[11:18:34] [main/ERROR]: Parsing error loading recipe wizards:staff_ruby_fire
+[12:01:26] [main/ERROR]: Parsing error loading recipe wizards:staff_ruby_fire
 com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -236,7 +236,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[11:18:34] [main/ERROR]: Parsing error loading recipe paladins:aeternium_great_hammer
+[12:01:26] [main/ERROR]: Parsing error loading recipe paladins:aeternium_great_hammer
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -260,87 +260,67 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[11:18:34] [main/INFO]: Loaded 8 recipes
-[11:18:34] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_frost: Invalid criterion trigger: spell_engine:spell_cast
-[11:18:34] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_arcane: Invalid criterion trigger: spell_engine:spell_cast
-[11:18:34] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_fire: Invalid criterion trigger: spell_engine:spell_cast
-[11:18:34] [main/INFO]: Loaded 1236 advancements
-[11:18:34] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5483 translation keys
-[11:18:35] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 9.549 ms
-[11:18:36] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[11:18:36] [Server thread/INFO]: Loading properties
-[11:18:36] [Server thread/INFO]: Default game type: SURVIVAL
-[11:18:36] [Server thread/INFO]: Generating keypair
-[11:18:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:18:36] [Server thread/INFO]: Using default channel type
-[11:18:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:18:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:18:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:18:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:18:36] [Server thread/INFO]: Preparing level "world_2"
-[11:18:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:18:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:18:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:18:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:18:45] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:18:46] [Worker-Main-5/INFO]: Preparing spawn area: 7%
-[11:18:46] [Worker-Main-11/INFO]: Preparing spawn area: 65%
-[11:18:47] [Server thread/INFO]: Time elapsed: 9939 ms
-[11:18:47] [Server thread/INFO]: Done (10.245s)! For help, type "help"
-[11:18:47] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 90668 bytes (in 10 string chunks with the size of 10000)
-[11:18:47] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 41377 bytes (in 5 string chunks with the size of 10000)
-[11:18:47] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[11:18:51] [Server thread/INFO]: [Handshake] Sending channel query
-[11:18:51] [Netty Server IO #2/INFO]: [Handshake] Receiving client channels
-[11:18:51] [Netty Server IO #2/INFO]: [Handshake] Handshake completed successfully
-[11:18:52] [Server thread/INFO]: RickSparrow[/192.168.0.112:57160] logged in with entity id 105 at (-209.98995745681037, 64.0, 49.909188934389505)
-[11:18:52] [Server thread/INFO]: RickSparrow joined the game
-[11:19:15] [Server thread/INFO]: Villager class_1646['Monk'/173, l='ServerLevel[world_2]', x=-241.58, y=73.00, z=-3.42] died, message: 'Monk was slain by Zombie'
-[11:20:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2303ms or 46 ticks behind
-[11:22:05] [Server thread/INFO]: [Handshake] Sending channel query
-[11:22:05] [Netty Server IO #3/INFO]: [Handshake] Receiving client channels
-[11:22:05] [Netty Server IO #3/INFO]: [Handshake] Handshake completed successfully
-[11:22:06] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:57454] logged in with entity id 756 at (509.7604586569975, 54.0, -58.75163782095077)
-[11:22:07] [Server thread/INFO]: LAT_ROMMI joined the game
-[11:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3720ms or 74 ticks behind
-[11:22:45] [Server thread/INFO]: RickSparrow lost connection: Disconnected
-[11:22:45] [Server thread/INFO]: RickSparrow left the game
-[11:25:03] [Server thread/INFO]: [Handshake] Sending channel query
-[11:25:03] [Netty Server IO #5/INFO]: [Handshake] Receiving client channels
-[11:25:03] [Netty Server IO #5/INFO]: [Handshake] Handshake completed successfully
-[11:25:03] [Server thread/INFO]: RickSparrow[/192.168.0.112:57605] logged in with entity id 1489 at (-217.3731958211922, 84.0, 11.747141583168919)
-[11:25:03] [Server thread/INFO]: RickSparrow joined the game
-[11:44:10] [Server thread/INFO]: RickSparrow lost connection: Disconnected
-[11:44:10] [Server thread/INFO]: RickSparrow left the game
-[11:49:02] [Server thread/INFO]: [Handshake] Sending channel query
-[11:49:02] [Netty Server IO #7/INFO]: [Handshake] Receiving client channels
-[11:49:02] [Netty Server IO #7/INFO]: [Handshake] Handshake completed successfully
-[11:49:03] [Server thread/INFO]: RickSparrow[/192.168.0.112:58470] logged in with entity id 7175 at (-205.82459667159995, 64.0, 48.830707287652416)
-[11:49:03] [Server thread/INFO]: RickSparrow joined the game
-[11:50:21] [Server thread/INFO]: RickSparrow lost connection: Disconnected
-[11:50:21] [Server thread/INFO]: RickSparrow left the game
-[11:59:23] [Server thread/INFO]: Stopping the server
-[11:59:23] [Server thread/INFO]: Stopping server
-[11:59:23] [Server thread/INFO]: Saving players
-[11:59:23] [Server thread/INFO]: Saving worlds
-[11:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:overworld
-[11:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_nether
-[11:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_end
-[11:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_2): All chunks are saved
-[11:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:01:26] [main/INFO]: Loaded 8 recipes
+[12:01:26] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_frost: Invalid criterion trigger: spell_engine:spell_cast
+[12:01:26] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_arcane: Invalid criterion trigger: spell_engine:spell_cast
+[12:01:26] [main/ERROR]: Parsing error loading custom advancement wizards:spell_master_fire: Invalid criterion trigger: spell_engine:spell_cast
+[12:01:26] [main/INFO]: Loaded 1236 advancements
+[12:01:26] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5483 translation keys
+[12:01:27] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 7.663 ms
+[12:01:28] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[12:01:28] [Server thread/INFO]: Loading properties
+[12:01:28] [Server thread/INFO]: Default game type: SURVIVAL
+[12:01:28] [Server thread/INFO]: Generating keypair
+[12:01:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:01:28] [Server thread/INFO]: Using default channel type
+[12:01:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:01:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:01:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:01:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:01:28] [Server thread/INFO]: Preparing level "world_2"
+[12:01:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:01:33] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:01:34] [Worker-Main-8/INFO]: Preparing spawn area: 6%
+[12:01:34] [Worker-Main-11/INFO]: Preparing spawn area: 70%
+[12:01:34] [Server thread/INFO]: Time elapsed: 5678 ms
+[12:01:34] [Server thread/INFO]: Done (5.902s)! For help, type "help"
+[12:01:35] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 90668 bytes (in 10 string chunks with the size of 10000)
+[12:01:35] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 41377 bytes (in 5 string chunks with the size of 10000)
+[12:01:35] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[12:01:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@2aaf4e02[id=<null>,name=LAT_ROMMI,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:59358) lost connection: Disconnected
+[12:01:35] [Server thread/INFO]: [Handshake] Sending channel query
+[12:01:35] [Netty Server IO #2/INFO]: [Handshake] Receiving client channels
+[12:01:35] [Netty Server IO #2/INFO]: [Handshake] Handshake completed successfully
+[12:01:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@1b32882f[id=<null>,name=LAT_ROMMI,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:59359) lost connection: Disconnected
+[12:01:39] [Server thread/INFO]: [Handshake] Sending channel query
+[12:01:39] [Netty Server IO #3/INFO]: [Handshake] Receiving client channels
+[12:01:39] [Netty Server IO #3/INFO]: [Handshake] Handshake completed successfully
+[12:01:39] [Server thread/INFO]: LAT_ROMMI[/[0:0:0:0:0:0:0:1]:59360] logged in with entity id 114 at (-240.34437003376257, 74.0, 19.446137483988803)
+[12:01:39] [Server thread/INFO]: LAT_ROMMI joined the game
+[12:05:12] [Server thread/INFO]: [Handshake] Sending channel query
+[12:05:12] [Netty Server IO #4/INFO]: [Handshake] Receiving client channels
+[12:05:12] [Netty Server IO #4/INFO]: [Handshake] Handshake completed successfully
+[12:05:12] [Server thread/INFO]: RickSparrow[/192.168.0.112:59395] logged in with entity id 835 at (-205.82459667159995, 64.0, 48.830707287652416)
+[12:05:12] [Server thread/INFO]: RickSparrow joined the game
+[12:19:51] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
+[12:19:51] [Server thread/INFO]: LAT_ROMMI left the game
+[12:19:54] [Server thread/INFO]: Stopping the server
+[12:19:54] [Server thread/INFO]: Stopping server
+[12:19:54] [Server thread/INFO]: Saving players
+[12:19:54] [Server thread/INFO]: Saving worlds
+[12:19:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:overworld
+[12:19:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_nether
+[12:19:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_end
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_2): All chunks are saved
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
