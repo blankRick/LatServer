@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-07-13 13:58:24 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2025-07-11 18:18:22 +0530"
@@ -569,6 +575,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-07-13 12:38:29 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2025-07-06 18:51:17 +0530"
@@ -771,6 +783,7 @@
       "minecraft:spider": "2025-07-06 19:05:22 +0530",
       "minecraft:creeper": "2025-07-09 18:07:44 +0530",
       "minecraft:slime": "2025-07-11 21:56:19 +0530",
+      "minecraft:phantom": "2025-07-13 12:53:29 +0530",
       "minecraft:zombified_piglin": "2025-07-11 13:09:54 +0530",
       "minecraft:wither_skeleton": "2025-07-12 20:12:01 +0530",
       "minecraft:cave_spider": "2025-07-12 17:20:50 +0530",
@@ -779,6 +792,12 @@
       "minecraft:drowned": "2025-07-06 20:11:30 +0530"
     },
     "done": false
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2025-07-13 12:53:47 +0530"
+    },
+    "done": true
   },
   "wizards:rune_crafter": {
     "criteria": {
@@ -849,6 +868,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-10 12:47:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-07-13 13:58:24 +0530"
     },
     "done": true
   },
@@ -3433,6 +3458,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/melon": {
+    "criteria": {
+      "has_melon_slice": "2025-07-13 13:58:24 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2025-07-06 18:47:10 +0530"
@@ -3790,6 +3821,12 @@
   "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2025-07-09 11:06:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-07-13 13:58:24 +0530"
     },
     "done": true
   },
