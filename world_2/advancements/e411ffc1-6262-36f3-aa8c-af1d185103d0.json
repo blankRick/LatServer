@@ -431,12 +431,6 @@
     },
     "done": true
   },
-  "wizards:spellbinder": {
-    "criteria": {
-      "bind": "2025-07-13 14:19:51 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-06 18:44:53 +0530"
@@ -695,9 +689,21 @@
     },
     "done": true
   },
+  "rpg_classes:obtain_frost_rune": {
+    "criteria": {
+      "runes": "2025-07-13 18:25:42 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-07-08 21:34:44 +0530"
+    },
+    "done": true
+  },
+  "rpg_classes:obtain_fire_rune": {
+    "criteria": {
+      "runes": "2025-07-13 17:10:54 +0530"
     },
     "done": true
   },
@@ -817,9 +823,15 @@
     },
     "done": false
   },
-  "wizards:rune_crafter": {
+  "minecraft:recipes/misc/ender_eye": {
     "criteria": {
-      "craft": "2025-07-08 21:37:27 +0530"
+      "has_blaze_powder": "2025-07-13 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-13 21:15:15 +0530"
     },
     "done": true
   },
@@ -1225,12 +1237,6 @@
     },
     "done": true
   },
-  "wizards:obtain_armor": {
-    "criteria": {
-      "wizard_robes": "2025-07-13 15:22:55 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-07-08 22:02:49 +0530"
@@ -1579,6 +1585,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-13 17:04:44 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-06 18:44:53 +0530"
@@ -1655,12 +1667,6 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2025-07-06 17:58:20 +0530"
-    },
-    "done": true
-  },
-  "wizards:obtain_frost_rune": {
-    "criteria": {
-      "runes": "2025-07-08 21:10:12 +0530"
     },
     "done": true
   },
@@ -1932,12 +1938,6 @@
     },
     "done": true
   },
-  "wizards:obtain_wand": {
-    "criteria": {
-      "wand": "2025-07-07 21:03:06 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-07-06 17:58:20 +0530"
@@ -1956,9 +1956,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-13 17:04:44 +0530"
+    },
+    "done": true
+  },
   "global:ps": {
     "criteria": {
       "trigger": "2025-07-12 15:55:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-07-13 20:09:56 +0530"
     },
     "done": true
   },
@@ -2130,6 +2142,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-07-13 21:15:15 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-07-06 17:57:45 +0530"
@@ -2157,6 +2175,12 @@
   "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_blue_dye": "2025-07-10 21:43:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-13 21:15:15 +0530"
     },
     "done": true
   },
@@ -2247,6 +2271,12 @@
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-07-10 15:06:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_netherbrick": "2025-07-13 17:04:21 +0530"
     },
     "done": true
   },
@@ -2739,12 +2769,6 @@
     },
     "done": true
   },
-  "wizards:enchant_spell_infinity": {
-    "criteria": {
-      "enchant": "2025-07-13 14:21:49 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2025-07-10 13:05:44 +0530"
@@ -3225,6 +3249,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-07-13 20:35:40 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-07-06 18:04:42 +0530"
@@ -3372,12 +3402,6 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-07-06 18:43:53 +0530"
-    },
-    "done": true
-  },
-  "wizards:root": {
-    "criteria": {
-      "always": "2025-07-07 20:43:16 +0530"
     },
     "done": true
   },
