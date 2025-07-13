@@ -323,6 +323,12 @@
     },
     "done": true
   },
+  "rpg_classes:priest_mastery": {
+    "criteria": {
+      "cast": "2025-07-13 16:10:10 +0530"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/creeper": {
     "criteria": {
       "has_gunpowder": "2025-07-10 15:06:10 +0530"
@@ -1216,6 +1222,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2025-07-12 18:02:40 +0530"
+    },
+    "done": true
+  },
+  "wizards:obtain_armor": {
+    "criteria": {
+      "wizard_robes": "2025-07-13 15:22:55 +0530"
     },
     "done": true
   },
