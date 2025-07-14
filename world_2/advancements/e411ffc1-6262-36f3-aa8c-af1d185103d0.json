@@ -329,6 +329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/creeper": {
     "criteria": {
       "has_gunpowder": "2025-07-10 15:06:10 +0530"
@@ -677,6 +683,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2025-07-06 18:30:46 +0530"
@@ -979,6 +991,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-07-06 18:44:25 +0530"
@@ -1159,6 +1177,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/diamond_tier_upgrade": {
     "criteria": {
       "has_diamond": "2025-07-10 16:11:51 +0530"
@@ -1234,6 +1258,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2025-07-12 18:02:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
     },
     "done": true
   },
@@ -1603,6 +1633,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/squid_smithing": {
+    "criteria": {
+      "has_squid": "2025-07-14 22:22:21 +0530"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-07-10 17:33:23 +0530",
@@ -1748,6 +1784,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-07-14 20:50:40 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2025-07-08 21:36:51 +0530"
@@ -1805,6 +1847,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-07-06 18:44:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
     },
     "done": true
   },
@@ -2360,6 +2408,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2025-07-06 18:34:06 +0530"
@@ -2552,6 +2606,12 @@
       "minecraft:cow": "2025-07-08 21:55:18 +0530"
     },
     "done": false
+  },
+  "travelersbackpack:recipes/travelersbackpack/wither_smithing": {
+    "criteria": {
+      "has_wither": "2025-07-14 21:34:53 +0530"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
@@ -3171,6 +3231,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "smallships:recipes/transportation/spruce_drakkar": {
     "criteria": {
       "in_water": "2025-07-06 18:06:09 +0530"
@@ -3294,6 +3360,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-07-10 14:31:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
     },
     "done": true
   },
@@ -3423,6 +3495,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2025-07-06 20:14:46 +0530"
@@ -3456,6 +3534,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2025-07-12 20:02:13 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
     },
     "done": true
   },
@@ -3801,6 +3885,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/light_gray_sleeping_bag_from_white_sleeping_bag": {
     "criteria": {
       "has_sleeping_bag": "2025-07-10 12:52:18 +0530"
@@ -3864,6 +3954,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-07-06 18:58:27 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-14 20:53:25 +0530"
     },
     "done": true
   },
