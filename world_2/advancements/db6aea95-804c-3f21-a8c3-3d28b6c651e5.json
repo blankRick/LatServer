@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-07-14 15:18:59 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-07-08 15:57:27 +0530"
@@ -446,6 +452,12 @@
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2025-07-11 12:25:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-07-14 17:02:40 +0530"
     },
     "done": true
   },
@@ -713,6 +725,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/squid": {
+    "criteria": {
+      "has_ink_sac": "2025-07-14 15:13:24 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-07-06 17:58:55 +0530"
@@ -787,9 +805,11 @@
       "minecraft:zombified_piglin": "2025-07-11 13:09:54 +0530",
       "minecraft:wither_skeleton": "2025-07-12 20:12:01 +0530",
       "minecraft:cave_spider": "2025-07-12 17:20:50 +0530",
+      "minecraft:piglin": "2025-07-14 17:07:51 +0530",
       "minecraft:enderman": "2025-07-06 18:44:47 +0530",
       "minecraft:zombie": "2025-07-06 18:37:24 +0530",
-      "minecraft:drowned": "2025-07-06 20:11:30 +0530"
+      "minecraft:drowned": "2025-07-06 20:11:30 +0530",
+      "minecraft:zombie_villager": "2025-07-14 15:52:23 +0530"
     },
     "done": false
   },
@@ -985,6 +1005,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-07-14 15:24:07 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-07-06 18:05:38 +0530"
@@ -1012,6 +1038,12 @@
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-07-06 18:29:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-07-14 15:24:07 +0530"
     },
     "done": true
   },
@@ -1327,6 +1359,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/fox": {
+    "criteria": {
+      "has_sweet_berries": "2025-07-14 17:34:58 +0530"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-07-06 18:06:02 +0530"
@@ -1408,6 +1446,12 @@
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2025-07-06 18:05:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-07-14 15:24:07 +0530"
     },
     "done": true
   },
@@ -1528,6 +1572,12 @@
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2025-07-08 15:57:27 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/squid_smithing": {
+    "criteria": {
+      "has_squid": "2025-07-14 16:30:14 +0530"
     },
     "done": true
   },
@@ -1787,6 +1837,12 @@
     },
     "done": true
   },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2025-07-14 18:01:03 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2025-07-09 18:36:41 +0530"
@@ -1880,6 +1936,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2025-07-08 12:31:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-07-14 17:02:40 +0530"
     },
     "done": true
   },
@@ -2000,6 +2062,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-07-08 11:01:59 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/pig": {
+    "criteria": {
+      "has_porkchop": "2025-07-14 15:24:07 +0530"
     },
     "done": true
   },
@@ -2456,6 +2524,12 @@
     },
     "done": false
   },
+  "travelersbackpack:recipes/travelersbackpack/wither_smithing": {
+    "criteria": {
+      "has_wither": "2025-07-14 16:38:24 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-07-10 02:00:09 +0530"
@@ -2834,6 +2908,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/chicken": {
+    "criteria": {
+      "has_feather": "2025-07-14 15:24:56 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2025-07-08 11:01:23 +0530"
@@ -3203,6 +3283,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-07-11 23:50:24 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-07-14 17:05:44 +0530"
     },
     "done": true
   },
