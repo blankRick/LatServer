@@ -485,6 +485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2025-07-15 19:02:59 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting": {
     "criteria": {
       "has_oxidized_copper": "2025-07-15 14:21:16 +0530"
@@ -1352,6 +1358,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-10 12:47:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2025-07-15 18:29:59 +0530"
     },
     "done": true
   },
@@ -2516,6 +2528,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2025-07-15 18:37:55 +0530",
       "sweet_berries": "2025-07-09 18:17:25 +0530",
       "cooked_beef": "2025-07-12 20:26:45 +0530",
       "baked_potato": "2025-07-09 12:29:41 +0530",
