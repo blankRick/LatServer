@@ -1,6 +1,6 @@
-[12:12:19] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.14
-[12:12:19] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.19.2-8.2.40 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[12:12:20] [main/INFO]: Loading 97 mods:
+[11:03:33] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.14
+[11:03:33] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.19.2-8.2.40 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:03:33] [main/INFO]: Loading 97 mods:
 	- azurelib 3.0.8
 	   \-- mixinextras 0.4.1
 	- balm-fabric 4.6.0
@@ -115,23 +115,23 @@
 	- xaerominimap 25.2.6
 	- xp_storage 1.4.3+1.19
 	- yet-another-config-lib 2.2.0-for-1.19.2
-[12:12:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Games/MinecraftServer/LatServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:12:20] [main/INFO]: Compatibility level set to JAVA_17
-[12:12:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12:12:35] [main/INFO]: Building unoptimized datafixer
-[12:12:39] [main/INFO]: Registered azurelib config for auto-sync function
-[12:12:40] [main/INFO]: Don't trust naschhorn, the Master of Taglocks, around you or your bed
-[12:12:40] [main/INFO]: Registering Mod Items for simplyswords
-[12:12:41] [main/INFO]: Loading Towns and Towers!
-[12:12:41] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[12:12:41] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[12:12:41] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[12:12:41] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[12:12:41] [main/INFO]: Registered JSON trade offer adapter.
-[12:12:42] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[12:12:42] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:12:45] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[12:12:47] [main/ERROR]: Parsing error loading recipe paladins:ruby_holy_staff
+[11:03:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Games/MinecraftServer/LatServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:03:33] [main/INFO]: Compatibility level set to JAVA_17
+[11:03:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:03:39] [main/INFO]: Building unoptimized datafixer
+[11:03:41] [main/INFO]: Registered azurelib config for auto-sync function
+[11:03:41] [main/INFO]: assume less - mald more
+[11:03:42] [main/INFO]: Registering Mod Items for simplyswords
+[11:03:42] [main/INFO]: Loading Towns and Towers!
+[11:03:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[11:03:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[11:03:42] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[11:03:42] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[11:03:42] [main/INFO]: Registered JSON trade offer adapter.
+[11:03:42] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[11:03:42] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:03:43] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[11:03:44] [main/ERROR]: Parsing error loading recipe paladins:ruby_holy_staff
 com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -155,7 +155,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[12:12:47] [main/ERROR]: Parsing error loading recipe wizards:staff_smaragdant_frost
+[11:03:44] [main/ERROR]: Parsing error loading recipe wizards:staff_smaragdant_frost
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:smaragdant_crystal_shard'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -179,7 +179,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:smaragdant_crystal_
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[12:12:47] [main/ERROR]: Parsing error loading recipe wizards:staff_crystal_arcane
+[11:03:44] [main/ERROR]: Parsing error loading recipe wizards:staff_crystal_arcane
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:crystal_shards'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -203,7 +203,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:crystal_shards'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[12:12:47] [main/ERROR]: Parsing error loading recipe paladins:aeternium_claymore
+[11:03:44] [main/ERROR]: Parsing error loading recipe paladins:aeternium_claymore
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -227,7 +227,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[12:12:47] [main/ERROR]: Parsing error loading recipe wizards:staff_ruby_fire
+[11:03:44] [main/ERROR]: Parsing error loading recipe wizards:staff_ruby_fire
 com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -251,7 +251,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[12:12:47] [main/ERROR]: Parsing error loading recipe paladins:aeternium_great_hammer
+[11:03:44] [main/ERROR]: Parsing error loading recipe paladins:aeternium_great_hammer
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -275,133 +275,52 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:aeternium_ingot'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
-[12:12:47] [main/INFO]: Loaded 8 recipes
-[12:12:48] [main/INFO]: Loaded 1363 advancements
-[12:12:48] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5483 translation keys
-[12:12:48] [main/INFO]: Deserializing default trades of profession: villagersplus:alchemist
-[12:12:48] [main/INFO]: Deserializing default trades of profession: villagersplus:horticulturist
-[12:12:48] [main/INFO]: Deserializing default trades of profession: villagersplus:occultist
-[12:12:48] [main/INFO]: Deserializing default trades of profession: villagersplus:oceanographer
-[12:12:51] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 28.70 ms
-[12:12:52] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[12:12:52] [Server thread/INFO]: Loading properties
-[12:12:52] [Server thread/INFO]: Default game type: SURVIVAL
-[12:12:52] [Server thread/INFO]: Generating keypair
-[12:12:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:12:52] [Server thread/INFO]: Using default channel type
-[12:12:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:12:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:12:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:12:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:12:53] [Server thread/INFO]: Preparing level "world_2"
-[12:12:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:13:04] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[12:13:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[12:13:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[12:13:06] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[12:13:06] [Worker-Main-14/INFO]: Preparing spawn area: 24%
-[12:13:07] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[12:13:08] [Server thread/INFO]: Time elapsed: 13813 ms
-[12:13:08] [Server thread/INFO]: Done (14.785s)! For help, type "help"
-[12:13:08] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 90668 bytes (in 10 string chunks with the size of 10000)
-[12:13:08] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 41472 bytes (in 5 string chunks with the size of 10000)
-[12:13:08] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[12:15:54] [Server thread/INFO]: [Handshake] Sending channel query
-[12:15:54] [Netty Server IO #1/INFO]: [Handshake] Receiving client channels
-[12:15:54] [Netty Server IO #1/INFO]: [Handshake] Handshake completed successfully
-[12:15:55] [Server thread/INFO]: LAT_ROMMI[/127.0.0.1:65152] logged in with entity id 107 at (-262.24354718455385, 31.0, 119.02377602335889)
-[12:15:55] [Server thread/INFO]: Loading config from file...
-[12:15:56] [Server thread/INFO]: LAT_ROMMI joined the game
-[12:16:03] [Server thread/WARN]: UUID of added entity already exists: class_1646['Librarian'/320, l='ServerLevel[world_2]', x=-188.75, y=75.00, z=59.50]
-[12:16:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[12:16:51] [Server thread/INFO]: Villager class_1646['Fisherman'/336, l='ServerLevel[world_2]', x=-199.30, y=60.05, z=37.70] died, message: 'Fisherman drowned'
-[12:37:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2234ms or 44 ticks behind
-[12:38:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2381ms or 47 ticks behind
-[12:38:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[12:47:40] [Server thread/INFO]: Villager class_1646['Fisherman'/337, l='ServerLevel[world_2]', x=-199.30, y=60.05, z=37.70] died, message: 'Fisherman drowned'
-[12:51:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[12:53:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2177ms or 43 ticks behind
-[13:00:02] [Server thread/INFO]: Villager class_1646['Fisherman'/303, l='ServerLevel[world_2]', x=-199.30, y=60.05, z=37.70] died, message: 'Fisherman drowned'
-[13:28:34] [Server thread/INFO]: Villager class_1646['Monk'/334, l='ServerLevel[world_2]', x=-256.30, y=63.00, z=41.21] died, message: 'Monk hit the ground too hard whilst trying to escape Zombie'
-[13:52:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2439ms or 48 ticks behind
-[13:58:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[13:58:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2260ms or 45 ticks behind
-[13:59:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2261ms or 45 ticks behind
-[14:10:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
-[14:11:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2552ms or 51 ticks behind
-[14:42:49] [Server thread/INFO]: Villager class_1646['Occultist'/304, l='ServerLevel[world_2]', x=-198.49, y=63.00, z=49.53] died, message: 'Occultist hit the ground too hard'
-[14:59:14] [Server thread/INFO]: [LAT_ROMMI: Triggered [ps_boe] (set value to 5)]
-[14:59:15] [Server thread/INFO]: [LAT_ROMMI: Triggered [ps_boe] (set value to 8)]
-[15:01:19] [Server thread/INFO]: Villager class_1646['Fisherman'/330, l='ServerLevel[world_2]', x=-239.24, y=74.00, z=20.70] died, message: 'Fisherman was slain by Zombie'
-[15:01:22] [Server thread/INFO]: Villager class_1646['Fisherman'/311, l='ServerLevel[world_2]', x=-238.32, y=74.00, z=19.76] died, message: 'Fisherman was slain by Zombie'
-[15:01:27] [Server thread/INFO]: Villager class_1646['Villager'/342, l='ServerLevel[world_2]', x=-239.24, y=74.00, z=20.70] died, message: 'Villager was slain by Zombie'
-[15:09:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[15:14:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3595ms or 71 ticks behind
-[15:15:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4510ms or 90 ticks behind
-[15:21:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[15:35:10] [Server thread/INFO]: [LAT_ROMMI: Triggered [ps_boe] (set value to 8)]
-[15:35:11] [Server thread/INFO]: [LAT_ROMMI: Triggered [ps_boe] (set value to 3)]
-[15:35:15] [Server thread/WARN]: LAT_ROMMI moved too quickly! -82.47115501024169,0.375,12609.580688318063
-[15:35:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
-[15:37:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2328ms or 46 ticks behind
-[16:10:56] [Server thread/INFO]: Villager class_1646['Fisherman'/37857, l='ServerLevel[world_2]', x=-205.75, y=78.00, z=24.30] died, message: 'Fisherman was slain by Zombie'
-[16:17:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
-[16:18:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2086ms or 41 ticks behind
-[16:19:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6764ms or 135 ticks behind
-[16:19:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4053ms or 81 ticks behind
-[16:20:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[16:20:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
-[16:21:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
-[16:21:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4379ms or 87 ticks behind
-[16:21:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2434ms or 48 ticks behind
-[16:22:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7272ms or 145 ticks behind
-[16:23:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2444ms or 48 ticks behind
-[16:23:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2199ms or 43 ticks behind
-[16:34:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[16:36:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[16:39:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[16:40:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2211ms or 44 ticks behind
-[16:44:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2115ms or 42 ticks behind
-[16:45:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2208ms or 44 ticks behind
-[16:54:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2227ms or 44 ticks behind
-[16:56:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2133ms or 42 ticks behind
-[16:57:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4684ms or 93 ticks behind
-[16:58:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[17:04:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[17:04:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2560ms or 51 ticks behind
-[17:26:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2456ms or 49 ticks behind
-[17:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7093ms or 141 ticks behind
-[17:27:18] [Server thread/INFO]: LAT_ROMMI lost connection: Disconnected
-[17:27:18] [Server thread/INFO]: LAT_ROMMI left the game
-[17:27:40] [Server thread/INFO]: Stopping the server
-[17:27:40] [Server thread/INFO]: Stopping server
-[17:27:40] [Server thread/INFO]: Saving players
-[17:27:40] [Server thread/INFO]: Saving worlds
-[17:27:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:overworld
-[17:27:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_nether
-[17:27:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_end
-[17:27:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_2): All chunks are saved
-[17:27:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:27:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:27:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:03:44] [main/INFO]: Loaded 8 recipes
+[11:03:45] [main/INFO]: Loaded 1363 advancements
+[11:03:45] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5483 translation keys
+[11:03:45] [main/INFO]: Deserializing default trades of profession: villagersplus:alchemist
+[11:03:45] [main/INFO]: Deserializing default trades of profession: villagersplus:horticulturist
+[11:03:45] [main/INFO]: Deserializing default trades of profession: villagersplus:occultist
+[11:03:45] [main/INFO]: Deserializing default trades of profession: villagersplus:oceanographer
+[11:03:46] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 7.848 ms
+[11:03:46] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[11:03:46] [Server thread/INFO]: Loading properties
+[11:03:46] [Server thread/INFO]: Default game type: SURVIVAL
+[11:03:46] [Server thread/INFO]: Generating keypair
+[11:03:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:03:46] [Server thread/INFO]: Using default channel type
+[11:03:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:03:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:03:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:03:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:03:46] [Server thread/INFO]: Preparing level "world_2"
+[11:03:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:03:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:03:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:03:52] [Worker-Main-6/INFO]: Preparing spawn area: 31%
+[11:03:52] [Worker-Main-15/INFO]: Preparing spawn area: 83%
+[11:03:53] [Server thread/INFO]: Time elapsed: 6363 ms
+[11:03:53] [Server thread/INFO]: Done (6.619s)! For help, type "help"
+[11:03:53] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 90668 bytes (in 10 string chunks with the size of 10000)
+[11:03:53] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 41472 bytes (in 5 string chunks with the size of 10000)
+[11:03:53] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[11:04:02] [Server thread/INFO]: Stopping the server
+[11:04:02] [Server thread/INFO]: Stopping server
+[11:04:02] [Server thread/INFO]: Saving players
+[11:04:02] [Server thread/INFO]: Saving worlds
+[11:04:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:overworld
+[11:04:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_nether
+[11:04:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_2]'/minecraft:the_end
+[11:04:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_2): All chunks are saved
+[11:04:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:04:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:04:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
