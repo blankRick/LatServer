@@ -539,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2025-07-17 13:10:21 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2025-07-10 01:57:12 +0530"
@@ -888,18 +894,24 @@
       "minecraft:blaze": "2025-07-12 20:09:30 +0530",
       "minecraft:pillager": "2025-07-15 13:59:43 +0530",
       "minecraft:skeleton": "2025-07-06 18:54:07 +0530",
+      "minecraft:elder_guardian": "2025-07-17 13:10:18 +0530",
+      "minecraft:ravager": "2025-07-17 17:39:06 +0530",
       "minecraft:ghast": "2025-07-12 20:43:01 +0530",
+      "minecraft:guardian": "2025-07-17 13:06:00 +0530",
       "minecraft:vindicator": "2025-07-15 14:43:53 +0530",
       "minecraft:magma_cube": "2025-07-12 22:16:35 +0530",
       "minecraft:spider": "2025-07-06 19:05:22 +0530",
       "minecraft:creeper": "2025-07-09 18:07:44 +0530",
       "minecraft:slime": "2025-07-11 21:56:19 +0530",
+      "minecraft:evoker": "2025-07-17 17:41:56 +0530",
       "minecraft:phantom": "2025-07-13 12:53:29 +0530",
       "minecraft:zombified_piglin": "2025-07-11 13:09:54 +0530",
+      "minecraft:witch": "2025-07-17 17:47:09 +0530",
       "minecraft:wither_skeleton": "2025-07-12 20:12:01 +0530",
       "minecraft:cave_spider": "2025-07-12 17:20:50 +0530",
       "minecraft:piglin": "2025-07-14 17:07:51 +0530",
       "minecraft:enderman": "2025-07-06 18:44:47 +0530",
+      "minecraft:vex": "2025-07-17 17:42:01 +0530",
       "minecraft:zombie": "2025-07-06 18:37:24 +0530",
       "minecraft:drowned": "2025-07-06 20:11:30 +0530",
       "minecraft:zombie_villager": "2025-07-14 15:52:23 +0530"
@@ -1482,6 +1494,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-07-17 17:51:23 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-07-11 23:50:24 +0530"
@@ -1662,9 +1680,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-17 13:06:00 +0530"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/backpack_tank": {
     "criteria": {
       "has_iron": "2025-07-10 12:29:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-07-17 11:43:30 +0530"
     },
     "done": true
   },
@@ -1809,14 +1839,18 @@
       "minecraft:river": "2025-07-06 17:59:43 +0530",
       "minecraft:lukewarm_ocean": "2025-07-09 18:38:37 +0530",
       "minecraft:stony_shore": "2025-07-06 18:10:25 +0530",
+      "minecraft:snowy_plains": "2025-07-17 17:17:46 +0530",
       "minecraft:dripstone_caves": "2025-07-09 18:27:47 +0530",
       "minecraft:grove": "2025-07-06 19:24:49 +0530",
       "minecraft:cold_ocean": "2025-07-07 20:55:30 +0530",
       "minecraft:forest": "2025-07-06 17:58:09 +0530",
       "minecraft:deep_cold_ocean": "2025-07-15 12:36:12 +0530",
+      "minecraft:ice_spikes": "2025-07-17 17:17:56 +0530",
+      "minecraft:frozen_ocean": "2025-07-17 17:18:56 +0530",
       "minecraft:desert": "2025-07-15 15:40:53 +0530",
       "minecraft:jungle": "2025-07-09 18:35:30 +0530",
       "minecraft:ocean": "2025-07-09 17:16:43 +0530",
+      "minecraft:snowy_beach": "2025-07-17 17:17:40 +0530",
       "minecraft:windswept_savanna": "2025-07-15 15:29:23 +0530",
       "minecraft:deep_lukewarm_ocean": "2025-07-09 19:33:39 +0530",
       "minecraft:frozen_peaks": "2025-07-06 17:54:34 +0530",
@@ -2107,6 +2141,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-17 13:06:00 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_boots": "2025-07-08 11:09:06 +0530"
@@ -2335,6 +2375,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-17 13:06:00 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2025-07-06 18:05:00 +0530"
@@ -2344,6 +2390,18 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-07-06 19:19:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-07-17 12:17:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-07-17 17:51:20 +0530"
     },
     "done": true
   },
@@ -2589,6 +2647,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-07-17 12:45:03 +0530",
       "cooked_mutton": "2025-07-15 18:37:55 +0530",
       "sweet_berries": "2025-07-09 18:17:25 +0530",
       "cooked_beef": "2025-07-12 20:26:45 +0530",
@@ -3202,6 +3261,12 @@
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2025-07-07 21:58:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-07-17 17:51:23 +0530"
     },
     "done": true
   },
